@@ -1,4 +1,4 @@
-#Problem Euler n°1
+# Problem Euler nÂ°1
 The subject is : 
 *If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 1000.*
@@ -12,10 +12,10 @@ Here, we have these :
 * **x** = 3
 * **y** = 5
 
-####First solution
+##### First solution
 I went all the way through the most basic solution. Here, a simple *for loop*, and two modulo operations, one for *x* and one for *y*.
 
-###Second solution
+##### Second solution
 I figured that all the multiples of 5 are either ending with 5, or with 0. So i wanted to try the speed of the algorithm when replacing
 a modulo operation by two *built-in* functions of .Net framework. 
 Eventually, this solution is slower, surely due to type conversion, and some conditionals in *built-in* functions.
